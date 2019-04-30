@@ -64,3 +64,7 @@ blockquote{
 a{
     color: #A4A400;
 }
+
+.preClass{
+    text-align: right;
+}
