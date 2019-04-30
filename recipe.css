@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2019, 2:30:10 PM
+    Author     : iradukundajado
+*/
+
+body{
+    
+    background-color:  #FFF;
+    font-family: Gregory,sans-serif;
+    background-image: url("backgroundImage.jpg");
+    //background-repeat: no-repeat;
+    width: 95%;
+    margin: auto;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #A4A400;
+    background-color: #F0F0F0 ;
+    font-family: Lucida Sans Unicode, Helvetica, Arial,sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#mainTitle{
+    text-align: center;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tbsp{
+   text-decoration-line: underline;
+}
+
+ol li{
+    padding: 5px;
+}
+
+ul li{
+    padding: 5px;
+}
+.pre{
+    font-weight: bold;
+}
+
+.inside{
+    text-decoration: line-through;
+}
+
+blockquote{
+    background-color: #04f765;
+    font-style: italic;
+    font-family: initial;
+    width: 80%;
+}
+
+a{
+    color: #A4A400;
+}
