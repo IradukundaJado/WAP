@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="signup.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form>
+            <fieldset><legend>New User Signup:</legend>
+                <table id="mainTable">
+                    <tr>
+                        <td>
+                            <span class="preContent">Name</span> 
+                        </td>
+                        <td>
+                            <label><input type="text" size="16" class="text"/></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="preContent">Gender</span>
+                        </td>
+                        <td>
+                            <label><input type="radio" name="cc" value="Male"/>Male</label>
+                            <label> <input type="radio" name="cc" value="Female" checked/>Female </label>
+
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="preContent">Age</span>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="text" size="8" maxlength="3" name="age" class="text"/>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="preContent">Age</span>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="text" size="8" maxlength="3" name="age"  class="text"/>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="preContent">Personality type :</span>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="text" size="8" maxlength="3" name="personalType" class="text"/>
+                                <span class="insideText">(Don't know your type?)</span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="preContent">Favorite OS :</span>
+                        </td>
+                        <td>
+                            <label>
+
+                                <select>
+                                    <option>Mac OSX</option>
+                                    <option>Windows</option>
+                                    <option>Unix/Linux</option>
+                                </select>
+                            </label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="preContent">Seeking age :</span>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="text" size="8" name="min" placeholder="min" class="text"/> to 
+                                <input type="text" size="8" name="max" placeholder="max" class="text"/>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Signup" class="btn"/></td>
+
+                    </tr>
+
+
+                </table>
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
