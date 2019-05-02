@@ -87,7 +87,7 @@ h1{
     border-radius: 20px;
 }
 
-#internalCont{
+.internalCont{
     
     width: 45%;
     float: left;
@@ -97,7 +97,7 @@ h1{
     overflow: auto;
 }
 
-#sub{
+.sub{
    background-color: #E8DC9B;
     border : 3px solid gray;
     
