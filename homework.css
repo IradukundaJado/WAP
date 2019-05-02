@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 1, 2019, 1:58:17 PM
+    Author     : iradukundajado
+*/
+
+htm,body{
+    height: 100%;
+}
+body{
+     background-image: url("background.png");
+     
+}
+
+#heading{
+    width: 100%;
+    height:20%;
+    background-image: url("rbg.png");
+}
+
+#mainContent{
+    width: 100%;
+    height:100%;
+}
+
+
+
+.headerImage{
+    width:60%;
+    margin-left:20%;
+}
+
+
+
+#first{
+     
+    width: 70%;
+    float: left;
+}
+
+#theTitle{
+   background-image: url("rbg.png"); 
+}
+
+#second{
+    width: 30%;
+    float: right;
+    background-color:#A2B964;
+    height: 1200px;
+    padding:0px;
+    margin:0px;
+}
+
+#parent{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#innerImage{
+    width: 100%;
+    height: 500px;
+}
+
+#secondOne{
+    margin-left: 20%;
+}
+
+
+h1{
+    text-align: center;
+    text-shadow:  3px 3px gray;
+}
+
+#mainContent{
+    width: 70%;
+    margin: auto;
+    border : 4px solid gray;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+#internalCont{
+    
+    width: 45%;
+    float: left;
+    margin: 1%;
+    border-radius: 20px;
+    padding:5px;
+    overflow: auto;
+}
+
+#sub{
+   background-color: #E8DC9B;
+    border : 3px solid gray;
+    
+    margin: 1%;
+    border-radius: 20px;
+    padding:5px;
+    overflow: auto;
+}
+
+.subImage{
+    float: left;
+    padding: 15px;
+}
+
+.inImage{
+    float: left;
+}
+
+.upDown{
+    margin-top:15px;
+}
+
+.textBold{
+    font-weight: bold;
+}
+.toBold{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#firstOne{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inTexting{
+   margin-left: 30px;
+   font-size:60px;
+   margin-top:0px;
+   color:green;
+   font-family: sans-serif;
+}
+
+ul li{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.leadingLi{
+    padding: 5px;
+}
+
+.footer{
+ background-color: #A2B964;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    border: 3px solid #A2B964;
+    font-weight: bold;
+}
+
+
+
+
+
+
