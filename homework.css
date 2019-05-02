@@ -160,7 +160,9 @@ ul li{
     font-weight: bold;
 }
 
-
+.checkingButton{
+    float: right;
+}
 
 
 
