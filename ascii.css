@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2019, 1:55:30 PM
+    Author     : iradukundajado
+*/
+
+body{
+    background-color:  #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+   
+}
+
+h1{
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+textarea{
+    width: 90%;
+    margin-left: 5%;
+    height: 400px;
+}
+
+#parent{
+    width: 60%;
+    margin: auto;
+    
+}
+
+.kiki{
+    width: 20%;
+    float: left;
+    border : 2px solid black;
+    
+}
+
+
+
